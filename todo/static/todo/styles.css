@@ -1,0 +1,41 @@
+body {
+	background: #008080;
+	font-family: 'Open Sans',sans-serif;
+}
+#wrapper {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+#content {
+	width: 600px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px 0;
+
+}
+
+#content > h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 0;
+}
+.t10 {
+	margin-top: 10px;
+	text-align: left;
+}
+.t20 {
+	margin-top: 20px;
+	text-align: left;
+}
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+}
+
+.list-group-item {
+	color: black;
+}
